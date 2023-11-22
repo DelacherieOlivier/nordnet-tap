@@ -1,14 +1,14 @@
 apiVersion: carto.run/v1alpha1
 kind: Workload
 metadata:
-  name: nordnet-portal-loic
+  name: nordnet-portal-olivier
   labels:
     apps.tanzu.vmware.com/workload-type: web
-    app.kubernetes.io/part-of: nordnet-portal-loic
+    app.kubernetes.io/part-of: nordnet-portal-olivier
     apps.tanzu.vmware.com/has-tests: "true"
 spec:
   source:
     git:
-      url: https://github.com/DelacherieOlivier/nordnet-tap
+      url: https://github.com/DelacherieOlivier/nordnet-tap.git
       ref:
-        branch: main
+        branch: update-workflow
