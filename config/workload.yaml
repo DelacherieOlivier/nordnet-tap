@@ -9,6 +9,6 @@ metadata:
 spec:
   source:
     git:
-      url: https://github.com/DelacherieOlivier/nordnet-tap
+      url: https://github.com/DelacherieOlivier/nordnet-tap.git
       ref:
         branch: update-workflow
